@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Please enter  item data  ."
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/tv_id_insert"
+            android:layout_marginTop="2dp"
+            android:hint="ID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/tv_name_insert"
+            android:layout_marginTop="2dp"
+            android:hint="name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/tv_discription_insert"
+            android:layout_marginTop="2dp"
+            android:hint="Discription"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/tv_regularPrice_insert"
+            android:layout_marginTop="2dp"
+            android:hint="Regular Price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/tv_salePrice_insert"
+            android:layout_marginTop="2dp"
+            android:hint="Sale Price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_InsertItem"
+        android:text="Insert Item"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

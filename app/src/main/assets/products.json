@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mobile",
+      "description": "5G I Phone",
+      "regularPrice": 50000,
+      "salePrice": 55000,
+      "productPhoto": "",
+      "colors": [{"colourName":"red"},{"colourName":"red"},{"colourName":"red"},{"colourName":"red"}
+
+      ],
+      "stores": ""
+    },
+    {
+      "id": 2,
+      "name": "Trimmer",
+      "description": "Ultra Fast Trimmer",
+      "regularPrice": 10000,
+      "salePrice": 12000,
+      "productPhoto": "",
+      "colors": [{"colourName":"red"},{"colourName":"red"},{"colourName":"red"},{"colourName":"red"}
+
+      ],
+      "stores": ""
+    },
+    {
+      "id": 3,
+      "name": "Earphone",
+      "description": "Wireless Earphone",
+      "regularPrice": 1000,
+      "salePrice": 12000,
+      "productPhoto": "",
+      "colors": [{"colourName":"red"},{"colourName":"red"},{"colourName":"red"},{"colourName":"red"}
+
+      ],
+      "stores": ""
+    }
+  ]
+}

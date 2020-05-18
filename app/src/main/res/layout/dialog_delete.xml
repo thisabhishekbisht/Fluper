@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Please choose item to delete ."
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_items"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_deleteItem"
+        android:text="Delete Item"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
